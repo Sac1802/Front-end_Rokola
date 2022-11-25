@@ -1,0 +1,215 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'MontSerrat', sans-serif;
+    background-image: url(/static/img/Rokola2.jpg);
+}
+.padre{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.header{
+    padding: 0 50px;
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 60px;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.Logo{
+    margin-top: 80px;
+    flex: 1 1 auto;
+    width: 50%;
+}
+.Logo {
+    color: white;
+    font-size: 30px;
+}
+.navegacion{
+    flex: 5 1 auto;
+    margin-top: 60px;
+  }
+.entrada{
+     color: white;
+     display: block;
+     text-align: center;
+     margin-bottom: 15px;
+}
+.inicio
+{
+    padding: 3px 10px;
+    background-image: linear-gradient(to right, #00cf45 0%, #00dfb6 100%);
+    border-radius: 10px;
+    border: none;
+}
+.inicio:hover
+{
+    background-image: linear-gradient(to right, #00a738 0%, #00b694 100%);
+}
+
+.entrada--genero
+{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.cuerpo
+{
+    width: 100%;
+    align-content: center;
+}
+
+.formulario
+{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nombre
+{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.text
+{
+    padding: 5px 0;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    width: 60%;
+}
+
+
+.contain_nombre
+{
+    width: 60%;
+    display: block;
+    margin: 0 auto ;
+    margin-bottom: 20px;
+}
+
+.position_nombre
+{
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 3px 0;
+}
+
+.picture_img
+{
+    width: 100%;
+}
+
+.inicio
+{
+    color: #fff;
+    font-weight: 800;
+}
+
+.contain_fild
+{
+    width: 100%;
+    border: none;
+}
+
+.cancion
+{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: 600;
+}
+
+.subir_cancion
+{
+    margin-top: 5px;
+}
+
+.boton_enviar
+{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.enviar
+{
+    color: #fff;
+    background-image: linear-gradient(to right, #00cf45 0%, #00dfb6 100%);
+    border-radius: 15px;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    padding: 5px 0;
+    border: none;
+}
+
+.enviar:hover
+{
+    background-image: linear-gradient(to right, #00a738 0%, #00b694 100%);
+}
+
+.genero
+{
+    margin-top: 200px;
+    width: 100%;
+}
+
+.contain_form
+{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nombre_genero
+{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.titulo_genero
+{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+@media(min-width: 525px)
+{
+    .container_metodos
+    {
+        width: 40%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .Logo
+    {
+        margin-top: 125px;
+    }
+
+    .navegacion{
+        margin-top: 110px;
+    }
+}

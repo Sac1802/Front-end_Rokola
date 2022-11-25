@@ -1,0 +1,2 @@
+[2022-07-15 20:02:01] [ngx::util::setLogFilename:201] Logging to requested file (C:/Users/Acost/OneDrive/Documentos/My Games/MortalShell/Dungeonhaven/Saved/Logs//nvsdk_ngx.log) enabled successfully
+[2022-07-15 20:02:01] [NGXLoadCoreLibrary:214] error: failed to locate NGX core path via registry key - error 2

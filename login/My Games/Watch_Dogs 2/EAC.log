@@ -1,0 +1,24 @@
+428,2022-07-19T17:17:09.240(1603)[EasyAntiCheat,INFO] EAC: Successfully initialized EAC
+433,2022-07-19T17:17:09.277(1603)[EasyAntiCheat,INFO] [EAC Internal]: [SetLogCallback] Procedure: 00007FFD60790020 LogLevel: Verbose.
+2089,2022-07-19T17:19:10.360(4153)[EasyAntiCheat,INFO] [EAC Internal]: [Cerberus] [Backend] Connection established.
+2102,2022-07-19T17:21:10.618(6338)[EasyAntiCheat,INFO] [EAC Internal]: [Cerberus] [Backend] Disconnected.
+2109,2022-07-19T17:23:11.952(9037)[EasyAntiCheat,INFO] [EAC Internal]: [Cerberus] [Backend] Connection established.
+2130,2022-07-19T17:25:12.116(13872)[EasyAntiCheat,INFO] [EAC Internal]: [Cerberus] [Backend] Disconnected.
+2175,2022-07-19T17:27:13.268(16737)[EasyAntiCheat,INFO] [EAC Internal]: [Cerberus] [Backend] Connection established.
+2216,2022-07-19T17:29:13.573(19723)[EasyAntiCheat,INFO] [EAC Internal]: [Cerberus] [Backend] Disconnected.
+2247,2022-07-19T17:31:14.966(22375)[EasyAntiCheat,INFO] [EAC Internal]: [Cerberus] [Backend] Connection established.
+2278,2022-07-19T17:33:15.239(26097)[EasyAntiCheat,INFO] [EAC Internal]: [Cerberus] [Backend] Disconnected.
+2333,2022-07-19T17:35:16.288(28957)[EasyAntiCheat,INFO] [EAC Internal]: [Cerberus] [Backend] Connection established.
+2392,2022-07-19T17:37:16.489(31156)[EasyAntiCheat,INFO] [EAC Internal]: [Cerberus] [Backend] Disconnected.
+2441,2022-07-19T17:39:17.651(33368)[EasyAntiCheat,INFO] [EAC Internal]: [Cerberus] [Backend] Connection established.
+2475,2022-07-19T17:41:17.939(35718)[EasyAntiCheat,INFO] [EAC Internal]: [Cerberus] [Backend] Disconnected.
+2499,2022-07-19T17:43:19.074(38092)[EasyAntiCheat,INFO] [EAC Internal]: [Cerberus] [Backend] Connection established.
+2531,2022-07-19T17:45:19.413(41143)[EasyAntiCheat,INFO] [EAC Internal]: [Cerberus] [Backend] Disconnected.
+2578,2022-07-19T17:47:20.655(43665)[EasyAntiCheat,INFO] [EAC Internal]: [Cerberus] [Backend] Connection established.
+2642,2022-07-19T17:49:20.969(46776)[EasyAntiCheat,INFO] [EAC Internal]: [Cerberus] [Backend] Disconnected.
+2705,2022-07-19T17:51:22.134(52962)[EasyAntiCheat,INFO] [EAC Internal]: [Cerberus] [Backend] Connection established.
+2766,2022-07-19T17:53:22.426(59235)[EasyAntiCheat,INFO] [EAC Internal]: [Cerberus] [Backend] Disconnected.
+2992,2022-07-19T17:55:23.837(64574)[EasyAntiCheat,INFO] [EAC Internal]: [Cerberus] [Backend] Connection established.
+3088,2022-07-19T17:57:24.137(66975)[EasyAntiCheat,INFO] [EAC Internal]: [Cerberus] [Backend] Disconnected.
+3210,2022-07-19T17:59:25.440(69424)[EasyAntiCheat,INFO] [EAC Internal]: [Cerberus] [Backend] Connection established.
+3259,2022-07-19T18:01:25.658(71368)[EasyAntiCheat,INFO] [EAC Internal]: [Cerberus] [Backend] Disconnected.

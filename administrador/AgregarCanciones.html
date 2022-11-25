@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Rokola</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="/static/script/agregar_genero.js"></script>
+    <script src="/static/script/agregar_archivo.js" type="module"></script>
+    <link rel="stylesheet" href="/static/style/AgregarCanciones.css">
+</head>
+
+<body>
+    <div class="container_metodos">
+    <div class="padre">
+        <header class="header">
+            <div class="menu">
+                <div class="Logo">
+                    <img src="/static/img/Logo Sencillo Neón para Bar-min-min.svg" alt="Logo de la Rokola" class="picture_img">
+                </div>
+                <nav class="navegacion">
+                    <a href="/principal/index.html" class="inicio">Inicio</a>
+                </nav>  
+            </div>
+        </header>
+
+        <section class="genero">
+            <div class="contain_form">
+                <h3 class="titulo_genero">Agregar Genero</h3>
+                <form class="formulario_genero" method="dialog" onsubmit="crearGenero(this)">
+                    <input name="nombreGenero" type="text" class="text" placeholder="Ingrese el Genero a Agregar"/>
+                    <input type="submit" name="enviar_genero" id="enviar_genero" class="enviar">
+                </form>
+            </div>
+        </section>
+        <div class="subir_cancion">
+    <div class="cuerpo">
+        <form class="formulario" method="dialog" onsubmit="crearCancion(this)">
+        </div>
+        <label class="entrada entrada--genero">Genero</label>
+    <div>  
+            <select name="generos" id="generos" class="position_nombre">
+                
+            </select>
+            <div class="position_Title">
+                <label class="entrada">Nombre De La Cancion</label>
+                <input type="text" class="contain_nombre text" placeholder="Ingrese el nombre de la Canción" name="nombreCancion">
+                <fieldset class="contain_fild">
+                    <input name="archivoCancion" type="file" class="cancion" id="archivo">
+                </fieldset>
+                <div class="boton_enviar">
+                <input type="submit" value="Guardar cancion" class="enviar" id="enviar_cancion2">
+            </div>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+</body>
+</html>

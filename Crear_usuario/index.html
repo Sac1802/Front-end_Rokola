@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style/style.css">
+    <script src="/static/script/crear.js"></script>
+    <title>La Rokola</title>
+</head>
+<body>
+    <header class="header">
+        <picture class="logo_Rokola">
+            <img src="/static/img/Logo Sencillo Neón para Bar-min-min.svg" alt="Logo bar Rokola" class="logo">
+        </picture>
+    </header>
+
+    <nav class="nav">
+        <div class="position">
+        <form method="dialog" onsubmit="crearUsuario(this)">
+        <div class="email">
+            <h3 class="nombre_usu">Introdusca su nombre de Usuario</h3>
+            <input type="text" name="nombreUsuario" id="nombre" class="text-usuario" placeholder="Ingrese su nombre">
+        </div>
+        <div class="email">
+            <h3 class="enter">Introdusca su Correo</h3>
+            <input type="email" name="correo" id="email" class="input_email" placeholder="Ingrese su correo">
+        </div>
+
+        <div class="password">
+            <h3 class="enter">Contraseña</h3>
+            <input type="password" name="contraseña1" id="contraseña1" class="input_pas" placeholder="Ingrese una contraseña">
+        </div>
+
+        <div class="password">
+            <h3 class="enter">Confirmar Contraseña</h3>
+            <input type="password" name="contraseña_confi" id="contraseña_confi" class="input_pas" placeholder="Confirme su contraseña">
+        </div>
+
+        <input type="submit" value="Crear Cuenta" class="button-enviar">
+    </form>
+    <div class="regresar_login">
+        <a href="/login/index.html" class="regresar">Regresar al login</a>
+    </div>
+</div>
+    </nav>
+</body>
+</html>

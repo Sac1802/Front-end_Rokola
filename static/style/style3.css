@@ -1,0 +1,116 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body
+{
+    background-image: url(/static/img/Rokola2.jpg);
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/images/fondo.jpeg);
+    background-position: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 60px;
+    cursor: pointer;
+}
+
+.info{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+.texto{
+    color: antiquewhite;
+    font-size: medium;
+    margin-bottom: 30px;
+}
+
+.boton{
+    color: #fff !important;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #781cf1;
+    border: 2px solid;
+    border-color: #6c01f8;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 25px;
+    text-decoration: none;
+}
+
+.boton:before {
+    content:"";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.178);
+    transition: all 1s ease;
+}
+
+.boton:hover:before {
+    width: 100%;
+    }
+
+.tarjeta{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;   
+    margin: 10px 15px;
+    background-image: url(/images/pic-1.png);
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+
+}
+
+.tarjeta1{
+    background-image: url(/static/img/papisitos/Devp1.webp);
+
+}
+
+.tarjeta2{
+    background-image: url(/static/img/papisitos/Devp2.webp);
+}
+
+.tarjeta3{
+    background-image: url(/static/img/papisitos/Devp3.webp);
+}
+
+.tarjeta4{
+    background-image: url(/static/img/papisitos/me.webp);
+}
+
+.tarjeta:hover{
+    transform: translateY(-10px);
+    color: #d400ff;
+}

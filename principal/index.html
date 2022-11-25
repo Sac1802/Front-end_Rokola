@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style/style2.css">
+    <link rel="stylesheet" href="/static/style/AgregarCanciones.css">
+    <script src="/static/script/principal.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <title>La Rokola</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav__container">
+            <picture class="nav__logo_1">
+                <img src="/static/img/Logo Sencillo Neón para Bar-min-min.svg" alt="" class="nav__logo_1">
+            </picture>
+            <label for="menu" class="nav__label">
+                <img src="/static/img/menu.svg" alt="icono de menu" class="nav__logo">
+            </label>
+
+            <input type="checkbox" id="menu" class="nav__input">
+
+            <div class="nav__menu">
+                <a href="/login/index.html" class="nav__item">Cerrar sesión</a>
+                <a href="/Banner/index.html" class="nav__item nav__item--position">Sobre Nosotros</a>
+                <a href="/administrador/AgregarCanciones.html" class="nav__item nav__item--position">Agregar Cancion</a>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <body class="section_generos">
+        <div class="position_generos">
+        <select name="generos" id="generos" class="generos" onchange="cambioGenero()">
+            <option value="0">Todas las canciones</option>
+        </select>
+        </div>
+    </body>
+
+    <section class="canciones" id="canciones">
+        <div class="pocition_canciones">
+        
+    </div>
+    </section>
+
+    
+</body>
+</html>
